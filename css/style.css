@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    background: #F6F6EF;
+}
+.header ul img {
+    border: 1px solid white;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+/* .header ul li {
+    list-style-type: none;
+} */
+.header ul {
+    display: flex;
+    background: #FF6700;
+    height: 25px;
+}
+.header ul li a {
+    /* text-decoration: none;
+    color: black; */
+    padding-left: 6px;
+    font-size: 13px;
+}
+.header ul .custom-class {
+    margin-left: auto;
+    padding-right: 5px;
+}
+.header ul li:nth-of-type(1) {
+    font-weight: bold;
+}
+.body-container {
+    padding: 5px 10px;
+}
+.body-container .list-number .special-char {
+    color: #828282;
+    font-size: 12px;
+    padding-left: 2px;
+}
+.body-container .main-heading-list {
+    font-size: 10pt;
+}
+.body-container p:not(.main-heading-list) {
+    font-size: 10px;
+}
+/* .body-container p a {
+    text-decoration: none;
+    color: black;
+} */
+.body-container p .extra-links {
+    color: grey;
+}
+.body-container .list-number {
+    padding-top: 7px;
+}
+.body-container .list-number .mini-links a {
+    color: #828282;
+    padding-left: 35px;
+}
+.body-container .more-link p  {
+    margin-top: 15px;
+    font-size: 10pt;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.footer {
+    height: 90px;
+    border-top: 2px solid #FF6700;
+}
+.footer .footer-list a {
+    font-size: 8pt;
+    /* text-decoration: none;
+    color: black; */
+}
+.footer .footer-list {
+    text-align: center;
+    padding-top: 5px;
+}
+.footer .form-making {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.footer .form-making p {
+    color: #828282;
+    font-size: 10pt;
+}
+.footer .form-making .footer-field {
+    margin-left: 10px;
+    font-size: 10pt;
+}
